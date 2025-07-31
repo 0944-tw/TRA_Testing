@@ -24,7 +24,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm i
+        run: npm i express
 
       - name: Update TDX Data
         run: node scripts/UpdateTDXData.js
