@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Update TDX Data
-        run: node UpdateTDXData.js
+        run: node scripts/UpdateTDXData.js
 
       - name: Commit and push changes
         run: |
